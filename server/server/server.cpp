@@ -13,7 +13,7 @@
 #include <sys/socket.h>
 #include <algorithm>
 
-const unsigned short SERVER_PORT = 5002;
+const unsigned short SERVER_PORT = 55001;
 const unsigned int MAX_CLIENTS = 5;
 
 
@@ -440,7 +440,7 @@ void handleClient(int clientSocket) {
 int main() {
     // Initialize Winsock
     room room1;
-    room1.name = "Phong1abuabuabu";
+    room1.name = "Phong1";
     room1.sockets.push_back(12345);  // Thay thế bằng socket thực tế
     room1.sockets.push_back(54321);  // Thêm socket khác nếu cần
     gameRooms.push_back(room1);

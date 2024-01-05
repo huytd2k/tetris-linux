@@ -295,7 +295,7 @@ int main() {
 	std::vector<Room> buttonList;
 	
    
-	RenderWindow window(VideoMode(600, 600), "Login System made by Abu");
+	RenderWindow window(VideoMode(600, 600), "Tetris Login");
 	Texture t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11, t12;
 
 	t1.loadFromFile("images/Login.png");
